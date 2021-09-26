@@ -32,6 +32,10 @@
 		0687F6A326FCDB4A00F30D25 /* LikeControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687F6A226FCDB4A00F30D25 /* LikeControls.swift */; };
 		0687F6A526FCDDD500F30D25 /* NewsWallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687F6A426FCDDD500F30D25 /* NewsWallController.swift */; };
 		0687F6A726FCE80900F30D25 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687F6A626FCE80900F30D25 /* Session.swift */; };
+		068818182700BC7B00F0F35E /* FrendsAPIOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068818172700BC7B00F0F35E /* FrendsAPIOperations.swift */; };
+		0688181B2700C3BE00F0F35E /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688181A2700C3BE00F0F35E /* Friends.swift */; };
+		0688181D2700C3CA00F0F35E /* DisplayFrendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0688181C2700C3CA00F0F35E /* DisplayFrendsTableViewController.swift */; };
+		068818212700C3E800F0F35E /* FriendsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068818202700C3E800F0F35E /* FriendsDB.swift */; };
 		4B415D40DFF0770714A5B61A /* Pods_PerfApp_1436.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B4EFB4DB7A3309C217651 /* Pods_PerfApp_1436.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +67,10 @@
 		0687F6A226FCDB4A00F30D25 /* LikeControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeControls.swift; sourceTree = "<group>"; };
 		0687F6A426FCDDD500F30D25 /* NewsWallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWallController.swift; sourceTree = "<group>"; };
 		0687F6A626FCE80900F30D25 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		068818172700BC7B00F0F35E /* FrendsAPIOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrendsAPIOperations.swift; sourceTree = "<group>"; };
+		0688181A2700C3BE00F0F35E /* Friends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		0688181C2700C3CA00F0F35E /* DisplayFrendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayFrendsTableViewController.swift; sourceTree = "<group>"; };
+		068818202700C3E800F0F35E /* FriendsDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsDB.swift; sourceTree = "<group>"; };
 		0FE186930B9CD87D3EEF99B7 /* Pods-PerfApp-1436.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfApp-1436.release.xcconfig"; path = "Target Support Files/Pods-PerfApp-1436/Pods-PerfApp-1436.release.xcconfig"; sourceTree = "<group>"; };
 		312B4EFB4DB7A3309C217651 /* Pods_PerfApp_1436.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfApp_1436.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A881A0019CA8676EBFE10E /* Pods-PerfApp-1436.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfApp-1436.debug.xcconfig"; path = "Target Support Files/Pods-PerfApp-1436/Pods-PerfApp-1436.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +91,9 @@
 		064A049026FB897400DB0C4D = {
 			isa = PBXGroup;
 			children = (
+				068818232700D55200F0F35E /* Lesson2 */,
+				068818222700C42900F0F35E /* Login */,
+				068818192700C39C00F0F35E /* Frends */,
 				0661669A27003FB4006AECA5 /* test */,
 				0687F69D26FCD9F800F30D25 /* Extension */,
 				0687F68C26FCD9E700F30D25 /* NewsFeed */,
@@ -129,6 +140,7 @@
 		065F10C326FC68FE00B03BEE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0688181A2700C3BE00F0F35E /* Friends.swift */,
 				0687F66E26FCD43500F30D25 /* NewsFeedsWall.swift */,
 				065F10C426FC691600B03BEE /* NewsModel.swift */,
 			);
@@ -138,7 +150,7 @@
 		0661669A27003FB4006AECA5 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				0661669B27003FC8006AECA5 /* NewsFeedsController.swift */,
+				068818202700C3E800F0F35E /* FriendsDB.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -147,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				0687F67126FCD46C00F30D25 /* NewsFeedAPI.swift */,
+				068818172700BC7B00F0F35E /* FrendsAPIOperations.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -172,7 +185,6 @@
 				0687F69326FCD9E700F30D25 /* NewsLikeCommentsTableViewCell.swift */,
 				0687F68F26FCD9E700F30D25 /* NewsLikeCommentsTableViewCell.xib */,
 				0687F6A426FCDDD500F30D25 /* NewsWallController.swift */,
-				064A04A026FB897400DB0C4D /* SelectActionViewController.swift */,
 			);
 			path = NewsFeed;
 			sourceTree = "<group>";
@@ -185,6 +197,30 @@
 				0687F69F26FCD9F800F30D25 /* Data+PrettyJSON.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		068818192700C39C00F0F35E /* Frends */ = {
+			isa = PBXGroup;
+			children = (
+				0688181C2700C3CA00F0F35E /* DisplayFrendsTableViewController.swift */,
+			);
+			path = Frends;
+			sourceTree = "<group>";
+		};
+		068818222700C42900F0F35E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				064A04A026FB897400DB0C4D /* SelectActionViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		068818232700D55200F0F35E /* Lesson2 */ = {
+			isa = PBXGroup;
+			children = (
+				0661669B27003FC8006AECA5 /* NewsFeedsController.swift */,
+			);
+			path = Lesson2;
 			sourceTree = "<group>";
 		};
 		72921CED92099EEADED690AB /* Frameworks */ = {
@@ -326,14 +362,18 @@
 				0687F69826FCD9E700F30D25 /* NewsAutorTableViewCell.swift in Sources */,
 				0687F6A726FCE80900F30D25 /* Session.swift in Sources */,
 				064A04A126FB897400DB0C4D /* SelectActionViewController.swift in Sources */,
+				0688181B2700C3BE00F0F35E /* Friends.swift in Sources */,
 				064A049D26FB897400DB0C4D /* AppDelegate.swift in Sources */,
 				0687F6A126FCD9F800F30D25 /* Data+PrettyJSON.swift in Sources */,
 				0687F6A526FCDDD500F30D25 /* NewsWallController.swift in Sources */,
 				0687F6A026FCD9F800F30D25 /* AvatarImage.swift in Sources */,
+				068818182700BC7B00F0F35E /* FrendsAPIOperations.swift in Sources */,
 				0687F6A326FCDB4A00F30D25 /* LikeControls.swift in Sources */,
 				0687F66F26FCD43500F30D25 /* NewsFeedsWall.swift in Sources */,
+				0688181D2700C3CA00F0F35E /* DisplayFrendsTableViewController.swift in Sources */,
 				0687F67226FCD46C00F30D25 /* NewsFeedAPI.swift in Sources */,
 				0687F69B26FCD9E700F30D25 /* NewsLikeCommentsTableViewCell.swift in Sources */,
+				068818212700C3E800F0F35E /* FriendsDB.swift in Sources */,
 				0687F67526FCD47B00F30D25 /* AuthViewController.swift in Sources */,
 				0661669C27003FC8006AECA5 /* NewsFeedsController.swift in Sources */,
 				065F10C226FC68DF00B03BEE /* NewsStorage.swift in Sources */,
