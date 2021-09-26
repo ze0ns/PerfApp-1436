@@ -16,18 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7t-as-Cer">
-                                <rect key="frame" x="121.5" y="508" width="171" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="92O-FJ-zf3"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="171" id="dmp-uA-5vb"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Lesson2"/>
-                                <connections>
-                                    <action selector="actionTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yu9-jz-EuC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5m-Uq-92z">
                                 <rect key="frame" x="121.5" y="381" width="171" height="31"/>
                                 <constraints>
@@ -40,13 +28,39 @@
                                     <action selector="actionsNewsFeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJX-uN-ayy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYB-9s-19M">
+                                <rect key="frame" x="121" y="593" width="172" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="NEI-XI-VlA"/>
+                                    <constraint firstAttribute="width" constant="172" id="cnt-gL-Ujm"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lesson 3"/>
+                                <connections>
+                                    <action selector="frendsViewActions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="41j-2i-jE8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7t-as-Cer">
+                                <rect key="frame" x="122" y="483" width="171" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="92O-FJ-zf3"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="171" id="dmp-uA-5vb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lesson 2"/>
+                                <connections>
+                                    <action selector="actionTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yu9-jz-EuC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="TYB-9s-19M" firstAttribute="top" secondItem="M7t-as-Cer" secondAttribute="bottom" constant="54" id="0GU-Ei-qvT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M7t-as-Cer" secondAttribute="bottom" constant="323" id="5iQ-zg-b3p"/>
                             <constraint firstItem="M7t-as-Cer" firstAttribute="centerX" secondItem="G5m-Uq-92z" secondAttribute="centerX" id="Lc2-UB-AF1"/>
                             <constraint firstItem="M7t-as-Cer" firstAttribute="top" secondItem="G5m-Uq-92z" secondAttribute="bottom" constant="96" id="Xs2-Kn-Rrd"/>
+                            <constraint firstItem="TYB-9s-19M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dlG-09-YIq"/>
                             <constraint firstItem="M7t-as-Cer" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tqW-We-3Nq"/>
                         </constraints>
                     </view>

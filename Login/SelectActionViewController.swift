@@ -8,6 +8,8 @@
 import UIKit
 
 class SelectActionViewController: UIViewController {
+    var friends: [Friend] = []
+    
 
     @IBAction func actionsNewsFeed(_ sender: Any) {
         let newsVC = NewsWallController()
@@ -16,6 +18,7 @@ class SelectActionViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
     }
 // Очередь разбиата на несколько потоков парралельно, поэтому мы видим разный результат
@@ -24,5 +27,11 @@ class SelectActionViewController: UIViewController {
        self.navigationController?.pushViewController(newsVC, animated: true)
     }
     
+    @IBAction func frendsViewActions(_ sender: Any) {
+        let FriendsVC = DisplayFrendsTableViewController()
+        self.navigationController?.pushViewController(FriendsVC, animated: true)
+        
+    }
 }
+
 
