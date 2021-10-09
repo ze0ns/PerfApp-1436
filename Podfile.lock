@@ -52,6 +52,15 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
   - PromisesObjC (2.0.0)
   - Realm (10.15.1):
     - Realm/Headers (= 10.15.1)
@@ -64,6 +73,8 @@ DEPENDENCIES:
   - DynamicJSON
   - Firebase/Auth
   - Firebase/Database
+  - PromiseKit
+  - PromiseKit/CorePromise (~> 6.8)
   - RealmSwift
 
 SPEC REPOS:
@@ -80,6 +91,7 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - PromiseKit
     - PromisesObjC
     - Realm
     - RealmSwift
@@ -97,10 +109,11 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   Realm: fbcbde2620d51623cc5b18e28f5b165c39abef52
   RealmSwift: e4bea8e42efad3d543aea23b56504069c6faaea2
 
-PODFILE CHECKSUM: be56d23a0a2409c0073bc4fa9faccbb986ecaa1b
+PODFILE CHECKSUM: 470c52ba62ed86c4a3278a9184f929b92bd60227
 
-COCOAPODS: 1.10.2
+COCOAPODS: 1.11.2

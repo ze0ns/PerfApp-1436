@@ -12,7 +12,9 @@ target 'PerfApp-1436' do
   #pod 'Firebase'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
-
+  pod 'PromiseKit'
+  pod "PromiseKit/CorePromise", "~> 6.8"
+  
   # Pods for PerfApp-1436
 
 end

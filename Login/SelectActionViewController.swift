@@ -32,6 +32,10 @@ class SelectActionViewController: UIViewController {
         self.navigationController?.pushViewController(FriendsVC, animated: true)
         
     }
+    @IBAction func actionGroupsPromise(_ sender: Any) {
+        let GroupVC = GroupsViewController()
+        self.navigationController?.pushViewController(GroupVC, animated: true)
+    }
 }
 
 
