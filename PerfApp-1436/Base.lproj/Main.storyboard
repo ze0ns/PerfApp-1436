@@ -16,14 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5m-Uq-92z">
-                                <rect key="frame" x="167" y="381" width="80" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Lesson 1"/>
-                                <connections>
-                                    <action selector="actionsNewsFeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJX-uN-ayy"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7t-as-Cer">
                                 <rect key="frame" x="121.5" y="508" width="171" height="31"/>
                                 <constraints>
@@ -34,6 +26,18 @@
                                 <buttonConfiguration key="configuration" style="tinted" title="Lesson2"/>
                                 <connections>
                                     <action selector="actionTest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yu9-jz-EuC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5m-Uq-92z">
+                                <rect key="frame" x="121.5" y="381" width="171" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="JGx-Yt-vJt"/>
+                                    <constraint firstAttribute="width" constant="171" id="dTv-cE-L8b"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Lesson 1"/>
+                                <connections>
+                                    <action selector="actionsNewsFeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJX-uN-ayy"/>
                                 </connections>
                             </button>
                         </subviews>
